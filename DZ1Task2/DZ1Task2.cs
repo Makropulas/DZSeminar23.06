@@ -13,22 +13,17 @@
         int number2 = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine();
-        Console.WriteLine("------------------------");
-        Console.WriteLine();
+        Console.WriteLine("------------------------ \n");
 
         if (number1 > number2)
         {
-            Console.Write("Большим, является число ");
-            Console.WriteLine(number1);
-            Console.Write("Меньшим, является число ");
-            Console.WriteLine(number2);
+            Console.WriteLine($"Большим, является число {number1}");
+            Console.WriteLine($"Меньшим, является число {number2}");
         }
         else
         {
-            Console.Write("Большим, является число ");
-            Console.WriteLine(number2);
-            Console.Write("Меньшим, является число ");
-            Console.WriteLine(number1);
+            Console.WriteLine($"Большим, является число {number2}");
+            Console.WriteLine($"Меньшим, является число {number1}");
         }
     }
 }

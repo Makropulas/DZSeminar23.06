@@ -18,7 +18,7 @@ Console.WriteLine();
 if (number2 > number1) max = number2;
 if (number3 > number2) max = number3;
 
-Console.Write("Из заданных трёх чисел, максимальным является число ");
+Console.Write("Из трёх заданных чисел, максимальным является число ");
 Console.WriteLine(max);
 
 // Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.

@@ -12,8 +12,7 @@
         int zero = 0;
         int one = 1;
 
-        Console.WriteLine();
-        Console.WriteLine("От единицы до вашего числа имеются такие чётные числа: \n");
+        Console.WriteLine("--------------------------------");
 
         if (number <= zero)
         {
